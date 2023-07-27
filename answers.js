@@ -71,5 +71,13 @@ whereIsWaldo.splice(1, 1);
 whereIsWaldo[1][2] = "No One";
 console.log(whereIsWaldo[2][1][1]);
 
+//Excited Kitten
+const kittyTalk = ["....human why are you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
 
-
+for(let i = 0; i <= 20; i++) {
+    if(i % 2 ==0) {
+        console.log(kittyTalk[Math.floor(Math.random()* kittyTalk.length)]);
+    } else {
+        console.log("Love me, pet me! HSSSSSSSS!");
+    }
+}
